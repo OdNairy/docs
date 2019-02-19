@@ -284,8 +284,8 @@ Key | Description | Default
   `app_identifier` | The bundle identifier of the app to upload or manage testers (optional) | [*](#parameters-legend-dynamic)
   `app_platform` | The platform to use (optional) | `ios`
   `ipa` | Path to the ipa file to upload | [*](#parameters-legend-dynamic)
-  `changelog` | Provide the 'what's new' text when uploading a new build | 
-  `beta_app_description` | Provide the beta app description when uploading a new build | 
+  `changelog` | Provide the 'What to Test' text when uploading a new build. `skip_waiting_for_build_processing: false` is required to update the value | 
+  `beta_app_description` | Provide the 'Beta App Description' when uploading a new build | 
   `beta_app_feedback_email` | Provide the beta app email when uploading a new build | 
   `skip_submission` | Skip the distributing action of pilot and only upload the ipa file | `false`
   `skip_waiting_for_build_processing` | Don't wait for the build to process. If set to true, the changelog won't be set, `distribute_external` option won't work and no build will be distributed to testers | `false`
